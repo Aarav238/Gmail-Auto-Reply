@@ -76,3 +76,8 @@ The application provides detailed console logs to keep you informed about its ac
 ## Interval
 
 The bot repeats the email checking and auto-reply process in random intervals of 45 to 120 seconds. The randomization adds a level of natural variation to the response times, making it less predictable and more realistic.
+
+## Labeling and Moving Emails
+
+To keep track of the emails that have been auto-replied to, the bot adds a label to the replied emails. By default, the label name is "AutoReplied". Additionally, the bot moves the replied email to a label named "GmailBot". If these labels do not exist, the bot creates them automatically.
+
