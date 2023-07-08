@@ -96,7 +96,7 @@ const checkEmailsAndSendReplies = async () => {
 };
 
 const createReplyRaw = async (from, to, subject) => {
-  const emailContent = `From: ${from}\nTo: ${to}\nSubject: ${subject}\n\nThank you for your message. I am unavailable right now, but will respond as soon as possible...`;
+  const emailContent = `From: ${from}\nTo: ${to}\nSubject: ${subject}\n\nI am acknowledging your message and I will response as soon as possible.`;
   const base64EncodedEmail = Buffer.from(emailContent)
     .toString("base64")
     .replace(/\+/g, "-")
