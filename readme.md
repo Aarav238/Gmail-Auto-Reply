@@ -34,3 +34,10 @@ You can also take reference from the `.env.example` file.
 
 To install the required dependencies, run the following command:
 ```npm install ```
+
+## Usage
+
+To start the Email Auto-Reply Bot, run the following command:
+```npm start```
+for development server:
+```npm run dev```
