@@ -81,3 +81,6 @@ The bot repeats the email checking and auto-reply process in random intervals of
 
 To keep track of the emails that have been auto-replied to, the bot adds a label to the replied emails. By default, the label name is "AutoReplied". Additionally, the bot moves the replied email to a label named "GmailBot". If these labels do not exist, the bot creates them automatically.
 
+## Conclusion
+
+The Gmail-Bot provides a convenient way to automate the process of replying to incoming emails. It helps manage communication when you are unavailable or on vacation. By setting up the necessary credentials and configuring the application, you can easily run the bot and let it handle the auto-replies for you.
