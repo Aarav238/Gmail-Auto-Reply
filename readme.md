@@ -72,3 +72,7 @@ The application provides detailed console logs to keep you informed about its ac
 - "Processing email from: [sender-email]": Indicates that the bot is processing an email from a specific sender.
 - "Sent reply to email: [sender-email]": Indicates that an auto-reply has been sent to the specified sender's email.
 - "Already replied to: [sender-email]": Indicates that the sender has already received an auto-reply and will be skipped.
+
+## Interval
+
+The bot repeats the email checking and auto-reply process in random intervals of 45 to 120 seconds. The randomization adds a level of natural variation to the response times, making it less predictable and more realistic.
