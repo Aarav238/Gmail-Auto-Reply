@@ -30,3 +30,7 @@ REDIRECT_URI=<your-redirect-uri>
 REFRESH_TOKEN=<your-refresh-token>
 ```
 You can also take reference from the `.env.example` file.
+## Installation
+
+To install the required dependencies, run the following command:
+```npm install ```
