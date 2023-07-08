@@ -50,3 +50,14 @@ npm run dev
 
 
 The bot will connect to the Gmail API using the provided credentials and start monitoring for unread emails. It will send an auto-reply to each unread email that meets the criteria.
+
+## Auto-Reply Message
+
+The auto-reply message is a predefined response that will be sent to the recipients of the incoming emails. It can be customized according to your needs. By default, the message says:
+```
+From: [sender-email]
+to: [recipient-email]
+Subject: [email-subject]
+
+I am acknowledging your message and I will respond as soon as possible.
+```
