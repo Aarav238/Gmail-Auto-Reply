@@ -47,3 +47,6 @@ for development server:
 ```
 npm run dev
 ```
+
+
+The bot will connect to the Gmail API using the provided credentials and start monitoring for unread emails. It will send an auto-reply to each unread email that meets the criteria.
