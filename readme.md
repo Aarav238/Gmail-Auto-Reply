@@ -61,3 +61,14 @@ Subject: [email-subject]
 
 I am acknowledging your message and I will respond as soon as possible.
 ```
+
+## Console logs
+
+The application provides detailed console logs to keep you informed about its activities. Here are the key log messages:
+
+- "Starting the email auto-reply bot...": Indicates that the bot has started and is ready to process incoming emails.
+- "Gmail Bot Started...": Indicates that the Gmail API connection is established.
+- "Total unread messages: [count]": Displays the total number of unread messages found.
+- "Processing email from: [sender-email]": Indicates that the bot is processing an email from a specific sender.
+- "Sent reply to email: [sender-email]": Indicates that an auto-reply has been sent to the specified sender's email.
+- "Already replied to: [sender-email]": Indicates that the sender has already received an auto-reply and will be skipped.
