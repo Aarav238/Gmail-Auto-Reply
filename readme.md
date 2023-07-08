@@ -29,3 +29,4 @@ CLIENT_SECRET=<your-client-secret>
 REDIRECT_URI=<your-redirect-uri>
 REFRESH_TOKEN=<your-refresh-token>
 ```
+You can also take reference from the `.env.example` file.
