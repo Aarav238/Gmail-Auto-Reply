@@ -1,6 +1,9 @@
 import { getGmailClient } from "./controllers/gmailApi.js";
 import { getEmail, sendReplyEmail } from "./controllers/email.js";
 import { createLabelIfNeeded } from "./controllers/gmailApi.js";
+import express from 'express';
+
+const app = express();
 
 
 // Set to keep track of users who have already received an auto-reply
@@ -104,3 +107,10 @@ console.log("Starting the Gmail auto-reply bot...");
 
 //Execute the checkEmailsAndSendReplies function repeatedly based on the random interval
 setInterval(checkEmailsAndSendReplies, getRandomInterval(45, 120) * 1000);
+
+app.listen(8000, () => {
+  console.log("server started at port 8000");
+})
+app.get('/' , (req,res) =>{
+  res.send("Gmail Auto reply bot started.....")
+})
